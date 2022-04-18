@@ -1,0 +1,21 @@
+#timelog-table td,
+#timelog-table th {
+  vertical-align: middle;
+}
+
+.modal-trigger {
+  margin-left: 15px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+tr:hover .modal-trigger {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sort-button {
+  position: relative;
+  top: -3px;
+  padding: 0 5px;
+}
